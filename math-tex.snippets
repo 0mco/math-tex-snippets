@@ -168,6 +168,10 @@ endsnippet
 snippet \vu "vartheta" i
 \vartheta
 endsnippet
+
+snippet \par "partial" i
+\partial
+endsnippet
 #-----------------------------------------------------------------------
 snippet () "left( right)" Ai
 (${1:${VISUAL}})
@@ -179,6 +183,10 @@ endsnippet
 
 snippet {} "left{ right}" Ai
 {${1:${VISUAL}}}
+endsnippet
+
+snippet || "left| right|" Ai
+|${1:${VISUAL}}|
 endsnippet
 
 snippet "_($)?" "_left{ right}" Ar
@@ -255,7 +263,7 @@ snippet label "Label" i
 endsnippet
 
 snippet ref "Reference" w
-(~\ref{$1})
+\ref{$1}
 endsnippet
 
 snippet em "Emphasis" w
@@ -486,6 +494,7 @@ snippet abstract "Abstract" b
 
 endsnippet
 #-----------------------------------------------------------------------
+# No use
 snippet chap "Chapter" b
 \chapter{${1:name}}
 $2
@@ -522,15 +531,16 @@ snippet sssec* "Subsubsection" b
 $2
 endsnippet
 
-snippet par "Paragraph" b
-\paragraph{${1:name}}
-$2
-endsnippet
+# No use
+#snippet par "Paragraph" b
+#\paragraph{${1:name}}
+#$2
+#endsnippet
 
-snippet spar "Subparagraph" b
-\subparagraph{${1:name}}
-$2
-endsnippet
+#snippet spar "Subparagraph" b
+#\subparagraph{${1:name}}
+#$2
+#endsnippet
 #-----------------------------------------------------------------------
 snippet now "Today"
 `date +"%Y-%m-%d %T"`

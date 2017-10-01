@@ -16,6 +16,7 @@ So I recommend you just install vim-snippets plugin like me and copy this file t
 * Convenience
 * No confusion
 * Do not change users' custom of typing
+* No hot-key
 
 ### Details of standards
 When I type LaTeX, I heavily use the arrow keys; and this is a waste of time. So I decided to reduce the use of those keys
@@ -43,6 +44,7 @@ to get
 
 ```
 Here I use '\m<tab>' instead of just '\mu' for consistency. At here its convience is not obvious, but when you type '\g<tab>' for '\gamma' or '\e<tab>' for 'epsilon', the convience is clear.
+Notice that I didn't press any arrow key.
 The mappings I used to map these keys to the Greek letters is by the Greek keyboard.
 See [GreekKeyboard](https://upload.wikimedia.org/wikipedia/commons/4/48/KB_Greek_polytonic_Unicode.svg) for a complete version.
 
