@@ -29,7 +29,8 @@ But before that I recommend you have a glance at the snippet file to learn what 
 
 ### Examples
 To type Einstein's field equation
-![Einstein's field equation](https://wikimedia.org/api/rest_v1/media/math/render/svg/021a494922172bfe1c9fa4e80d25ac90228d72cf)
+![Einstein's field equation]
+(https://wikimedia.org/api/rest_v1/media/math/render/svg/021a494922172bfe1c9fa4e80d25ac90228d72cf)
 We just type
 ```
 eq<tab>\[G_\m<tab> \n<tab><tab> + \L<tab> g_\m<tab> \n<tab><tab> = frac<tab>8\p<tab> G<tab>c^4<tab><tab> T_\m<tab> \n<tab>
@@ -41,7 +42,7 @@ to get
 \end{equation}
 
 ```
-Here I use '\m<tab>' instead of just '\mu' for consistency. At here its convience is not obvious, but when you type '\g<tab>' for '\gamma' or '\e' for 'epsilon', the convience is clear.
+Here I use '\m<tab>' instead of just '\mu' for consistency. At here its convience is not obvious, but when you type '\g<tab>' for '\gamma' or '\e<tab>' for 'epsilon', the convience is clear.
 The mappings I used to map these keys to the Greek letters is by the Greek keyboard.
 See [GreekKeyboard](https://upload.wikimedia.org/wikipedia/commons/4/48/KB_Greek_polytonic_Unicode.svg) for a complete version.
 
