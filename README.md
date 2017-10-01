@@ -29,8 +29,8 @@ But before that I recommend you have a glance at the snippet file to learn what 
 
 ### Examples
 To type Einstein's field equation
-![Einstein's field equation]
-(https://wikimedia.org/api/rest_v1/media/math/render/svg/021a494922172bfe1c9fa4e80d25ac90228d72cf)
+![Einstein's field equation](https://wikimedia.org/api/rest_v1/media/math/render/svg/021a494922172bfe1c9fa4e80d25ac90228d72cf)
+
 We just type
 ```
 eq<tab>\[G_\m<tab> \n<tab><tab> + \L<tab> g_\m<tab> \n<tab><tab> = frac<tab>8\p<tab> G<tab>c^4<tab><tab> T_\m<tab> \n<tab>
