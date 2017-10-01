@@ -1,4 +1,4 @@
-priority 0
+priority 2
 
 ###############################
 # Reserach Diary Tex Snippets #
@@ -6,187 +6,187 @@ priority 0
 
 # Keys are set in coofdinate to Greek's keyboard layout
 snippet \G "Gamma" i
-\Gamma 
+\Gamma
 endsnippet
 
 snippet \D "Delta" i
-\Delta 
+\Delta
 endsnippet
 
 snippet \L "Lambda" i
-\Lambda 
+\Lambda
 endsnippet
 
 snippet \F "Phi" i
-\Phi 
+\Phi
 endsnippet
 
 snippet \P "Pi" i
-\Pi 
+\Pi
 endsnippet
 
 snippet \C "Psi" i
-\Psi 
+\Psi
 endsnippet
 
 snippet \S "Sigma" i
-\Sigma 
+\Sigma
 endsnippet
 
 snippet \U "Theta" i
-\Theta 
+\Theta
 endsnippet
 
 snippet \Y "Upsilon" i
-\Upsilon 
+\Upsilon
 endsnippet
 
 snippet \J "Xi" i
-\Xi 
+\Xi
 endsnippet
 
 snippet \V "Omega" i
-\Omega 
+\Omega
 endsnippet
 
 snippet \a "alpha" i
-\alpha 
+\alpha
 endsnippet
 
 snippet \b "beta" i
-\beta 
+\beta
 endsnippet
 
 snippet \g "gamma" i
-\gamma 
+\gamma
 endsnippet
 
 snippet \d "delta" i
-\delta 
+\delta
 endsnippet
 
 snippet \e "epsilon" i
-\epsilon 
+\epsilon
 endsnippet
 
 snippet \z "zeta" i
-\zeta 
+\zeta
 endsnippet
 
 snippet \h "eta" i
-\eta 
+\eta
 endsnippet
 
 snippet \u "theta" i
-\theta 
+\theta
 endsnippet
 
 snippet \i "iota" i
-\iota 
+\iota
 endsnippet
 
 snippet \k "kappa" i
-\kappa 
+\kappa
 endsnippet
 
 snippet \l "lambda" i
-\lambda 
+\lambda
 endsnippet
 
 snippet \m "mu" i
-\mu 
+\mu
 endsnippet
 
 snippet \n "nu" i
-\nu 
+\nu
 endsnippet
 
 snippet \j "xi" i
-\xi 
+\xi
 endsnippet
 
 snippet \p "pi" i
-\pi 
+\pi
 endsnippet
 
 snippet \r "rho" i
-\rho 
+\rho
 endsnippet
 
 snippet \s "sigma" i
-\sigma 
+\sigma
 endsnippet
 
 snippet \t "tau" i
-\tau 
+\tau
 endsnippet
 
 snippet \y "upsilon" i
-\upsilon 
+\upsilon
 endsnippet
 
 snippet \f "phi" i
-\phi 
+\phi
 endsnippet
 
 snippet \x "chi" i
-\chi 
+\chi
 endsnippet
 
 snippet \c "psi" i
-\psi 
+\psi
 endsnippet
 
 snippet \v "omega" i
-\omega 
+\omega
 endsnippet
 
 snippet \dg "digamma" i
-\digamma 
+\digamma
 endsnippet
 
 snippet \ve "varepsilon" i
-\varepsilon 
+\varepsilon
 endsnippet
 
 snippet \vf "varphi" i
-\varphi 
+\varphi
 endsnippet
 
 snippet \vp "varpi" i
-\varpi 
+\varpi
 endsnippet
 
 snippet \vr "varrho" i
-\varrho 
+\varrho
 endsnippet
 
 snippet \vs "varsigma" i
-\varsigma 
+\varsigma
 endsnippet
 
 snippet \vu "vartheta" i
-\vartheta 
+\vartheta
 endsnippet
 #-----------------------------------------------------------------------
 snippet () "left( right)" Ai
-(${1:${VISUAL}}) 
+(${1:${VISUAL}})
 endsnippet
 
 snippet [] "left[ right]" Ai
-[${1:${VISUAL}}] 
+[${1:${VISUAL}}]
 endsnippet
 
 snippet {} "left{ right}" Ai
-{${1:${VISUAL}}} 
+{${1:${VISUAL}}}
 endsnippet
 
 snippet "_($)?" "_left{ right}" Ar
-_{${1:${VISUAL}}} 
+_{${1:${VISUAL}}}
 endsnippet
 
 snippet "\^($)?" "^left{ right}" Ar
-^{${1:${VISUAL}}} 
+^{${1:${VISUAL}}}
 endsnippet
 
 snippet $ "left$ right$" Ai
@@ -194,19 +194,19 @@ $${1:${VISUAL}}$
 endsnippet
 
 #snippet "[^\\]\(" "left( right)" Air
-#(${1:${VISUAL}}) 
+#(${1:${VISUAL}})
 #endsnippet
 
-snippet \( "left\( right\)" Ai
-\left( ${1:${VISUAL}} \right) 
+snippet \l( "left\( right\)" Ai
+\left( ${1:${VISUAL}} \right)
 endsnippet
 
-snippet \{ "left{ right}" Ai
-\\{ ${1:${VISUAL}} \\} 
+snippet \{ "left\{ right\}" Ai
+\\{${1:${VISUAL}}\\}
 endsnippet
 
-snippet \l{ "left{ right}" Ai
-\left\\{ ${1:${VISUAL}} \right\\} 
+snippet \l{ "left\{ right\}" Ai
+\left\\{ ${1:${VISUAL}} \right\\}
 endsnippet
 
 # Some bug see \textLabel{
@@ -216,7 +216,6 @@ endsnippet
 
 snippet \[ "left\[ right\]" Ai
 \[ ${1:${VISUAL}} \]
-
 endsnippet
 
 #snippet "[^\\][" "left[ right]" w
@@ -224,27 +223,27 @@ endsnippet
 #endsnippet
 
 snippet norm "Norm" w
-\norm{$1} 
+\norm{$1}
 endsnippet
 
 snippet lim "Limit" w
-\limit_{$1} 
+\lim_{$1}
 endsnippet
 
 snippet int "Integral" w
-\int_{${1:0}}^{${2:\infty}} 
+\int_{${1:0}}^{${2:\infty}}
 endsnippet
 
 snippet sum "Sum" w
-\sum_{${1:1}}^{${2:\infty}} 
+\sum_{${1:1}}^{${2:\infty}}
 endsnippet
 
 snippet prod "Product" w
-\prod_{${1:1}}^{${2:\infty}} 
+\prod_{${1:1}}^{${2:\infty}}
 endsnippet
 
 snippet frac "Fraction" w
-\frac{${1:${VISUAL:nom}}}{${2:denom}} 
+\frac{${1:${VISUAL:nom}}}{${2:denom}}
 endsnippet
 
 snippet url "Url" w
@@ -256,35 +255,35 @@ snippet label "Label" i
 endsnippet
 
 snippet ref "Reference" w
-(\ref{$1}) 
+(~\ref{$1})
 endsnippet
 
 snippet em "Emphasis" w
-\emph{$1} 
+\emph{$1}
 endsnippet
 
 snippet tbf "Text boldface" w
-\textbf{$1} 
+\textbf{$1}
 endsnippet
 
 snippet mbf "Math boldface" w
-\mathbf{$1} 
+\mathbf{$1}
 endsnippet
 
 snippet tit "Text italics" w
-\textit{$1} 
+\textit{$1}
 endsnippet
 
 snippet ol "Overline" w
-\overline{$1} 
+\overline{$1}
 endsnippet
 
 snippet ul "Underline" w
-\underline{$1} 
+\underline{$1}
 endsnippet
 
 snippet it "Item" b
-\item 
+\item
 endsnippet
 
 snippet "matrix" "Smart Matrix" b
@@ -488,48 +487,48 @@ snippet abstract "Abstract" b
 endsnippet
 #-----------------------------------------------------------------------
 snippet chap "Chapter" b
-\chapter{${1:name}}\label{`date +"%Y%m%d"`:chap:$1}
+\chapter{${1:name}}
 $2
 endsnippet
 
 snippet sec "Section" b
-\section{${1:name}}\label{`date +"%Y%m%d"`:sec:$1}
+\section{${1:name}}
 $2
 endsnippet
 
 snippet sec* "Section*" b
-\section*{${1:name}}\label{`date +"%Y%m%d"`:sec:$1}
+\section*{${1:name}}
 $2
 endsnippet
 
 
 snippet ssec "Subsection" b
-\subsection{${1:name}}\label{`date +"%Y%m%d"`:ssec:$1}
+\subsection{${1:name}}
 $2
 endsnippet
 
 snippet ssec* "Subsection" b
-\subsection*{${1:name}}\label{`date +"%Y%m%d"`:ssec:$1}
+\subsection*{${1:name}}
 $2
 endsnippet
 
 snippet sssec "Subsubsection" b
-\subsubsection{${1:name}}\label{`date +"%Y%m%d"`:sssec:$1}
+\subsubsection{${1:name}}
 $2
 endsnippet
 
 snippet sssec* "Subsubsection" b
-\subsubsection*{${1:name}}\label{`date +"%Y%m%d"`:sssec:$1}
+\subsubsection*{${1:name}}
 $2
 endsnippet
 
 snippet par "Paragraph" b
-\paragraph{${1:name}}\label{`date +"%Y%m%d"`:par:$1}
+\paragraph{${1:name}}
 $2
 endsnippet
 
 snippet spar "Subparagraph" b
-\subparagraph{${1:name}}\label{`date +"%Y%m%d"`:spar:$1}
+\subparagraph{${1:name}}
 $2
 endsnippet
 #-----------------------------------------------------------------------
