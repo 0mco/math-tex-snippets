@@ -22,7 +22,7 @@ So I recommend you just install vim-snippets plugin like me and copy this file t
 When I type LaTeX, I heavily use the arrow keys; and this is a waste of time. So I decided to reduce the use of those keys
 I set up a set of snippet to auto-middle for '(', '\[', and '{', etc.
 So you just type '()' then the cursor will be in the middle.
-When you have finished typing in the parentheses, you can just press '<tab>' to jump out of the parentheses.
+When you have finished typing in the parentheses, you can just press '\<tab\>' to jump out of the parentheses.
 
 ## How to use
 Only you have done above, you can just start editing your tex file by Vim.
