@@ -1,0 +1,572 @@
+priority 0
+
+###############################
+# Reserach Diary Tex Snippets #
+###############################
+
+# Keys are set in coofdinate to Greek's keyboard layout
+snippet \G "Gamma" i
+\Gamma
+endsnippet
+
+snippet \D "Delta" i
+\Delta
+endsnippet
+
+snippet \L "Lambda" i
+\Lambda
+endsnippet
+
+snippet \F "Phi" i
+\Phi
+endsnippet
+
+snippet \P "Pi" i
+\Pi
+endsnippet
+
+snippet \C "Psi" i
+\Psi
+endsnippet
+
+snippet \S "Sigma" i
+\Sigma
+endsnippet
+
+snippet \U "Theta" i
+\Theta
+endsnippet
+
+snippet \Y "Upsilon" i
+\Upsilon
+endsnippet
+
+snippet \J "Xi" i
+\Xi
+endsnippet
+
+snippet \V "Omega" i
+\Omega
+endsnippet
+
+snippet \a "alpha" i
+\alpha
+endsnippet
+
+snippet \b "beta" i
+\beta
+endsnippet
+
+snippet \g "gamma" i
+\gamma
+endsnippet
+
+snippet \d "delta" i
+\delta
+endsnippet
+
+snippet \e "epsilon" i
+\epsilon
+endsnippet
+
+snippet \z "zeta" i
+\zeta
+endsnippet
+
+snippet \h "eta" i
+\eta
+endsnippet
+
+snippet \u "theta" i
+\theta
+endsnippet
+
+snippet \i "iota" i
+\iota
+endsnippet
+
+snippet \k "kappa" i
+\kappa
+endsnippet
+
+snippet \l "lambda" i
+\lambda
+endsnippet
+
+snippet \m "mu" i
+\mu
+endsnippet
+
+snippet \n "nu" i
+\nu
+endsnippet
+
+snippet \j "xi" i
+\xi
+endsnippet
+
+snippet \p "pi" i
+\pi
+endsnippet
+
+snippet \r "rho" i
+\rho
+endsnippet
+
+snippet \s "sigma" i
+\sigma
+endsnippet
+
+snippet \t "tau" i
+\tau
+endsnippet
+
+snippet \y "upsilon" i
+\upsilon
+endsnippet
+
+snippet \f "phi" i
+\phi
+endsnippet
+
+snippet \x "chi" i
+\chi
+endsnippet
+
+snippet \c "psi" i
+\psi
+endsnippet
+
+snippet \v "omega" i
+\omega
+endsnippet
+
+snippet \dg "digamma" i
+\digamma
+endsnippet
+
+snippet \ve "varepsilon" i
+\varepsilon
+endsnippet
+
+snippet \vf "varphi" i
+\varphi
+endsnippet
+
+snippet \vp "varpi" i
+\varpi
+endsnippet
+
+snippet \vr "varrho" i
+\varrho
+endsnippet
+
+snippet \vs "varsigma" i
+\varsigma
+endsnippet
+
+snippet \vu "vartheta" i
+\vartheta
+endsnippet
+#-----------------------------------------------------------------------
+snippet () "left( right)" Ai
+(${1:${VISUAL}})
+endsnippet
+
+snippet [] "left[ right]" Ai
+[${1:${VISUAL}}]
+endsnippet
+
+snippet {} "left{ right}" Ai
+{${1:${VISUAL}}}
+endsnippet
+
+# Not work
+#snippet !\"\"! "left" right"" Air
+#"${1:${VISUAL}}"
+#endsnippet
+
+snippet || "left| right|" Ai
+|${1:${VISUAL}}|
+endsnippet
+
+snippet (] "left( right]" Ai
+(${1:${VISUAL}}]
+endsnippet
+
+snippet [) "left[ right)" Ai
+[${1:${VISUAL}})
+endsnippet
+
+snippet "_($)?" "_left{ right}" Ar
+_{${1:${VISUAL}}}
+endsnippet
+
+snippet "\^($)?" "^left{ right}" Ar
+^{${1:${VISUAL}}}
+endsnippet
+
+snippet $ "left$ right$" Ai
+$${1:${VISUAL}}$
+endsnippet
+
+#snippet "[^\\]\(" "left( right)" Air
+#(${1:${VISUAL}})
+#endsnippet
+
+snippet \l( "left\( right\)" Ai
+\left( ${1:${VISUAL}} \right)
+endsnippet
+
+snippet \{ "left\{ right\}" Ai
+\\{${1:${VISUAL}}\\}
+endsnippet
+
+snippet \l{ "left\{ right\}" Ai
+\left\\{ ${1:${VISUAL}} \right\\}
+endsnippet
+
+# Some bug see \textLabel{
+#snippet "[^\\_]\{" "left{ right}" Air
+#{${1:${VISUAL}}} 
+#endsnippet
+
+snippet \[ "left\[ right\]" Ai
+\[ ${1:${VISUAL}} \]
+endsnippet
+
+#snippet "[^\\][" "left[ right]" w
+#\left[ ${1:${VISUAL}} \right]
+#endsnippet
+
+snippet \norm "Norm" w
+\norm{$1}
+endsnippet
+
+snippet \lim "Limit" w
+\lim_{$1}
+endsnippet
+
+snippet \int "Integral" w
+\int_{${1:0}}^{${2:\infty}}
+endsnippet
+
+snippet \sum "Sum" w
+\sum_{${1:1}}^{${2:\infty}}
+endsnippet
+
+snippet \prod "Product" w
+\prod_{${1:1}}^{${2:\infty}}
+endsnippet
+
+snippet \frac "Fraction" w
+\frac{${1:${VISUAL:nom}}}{${2:denom}}
+endsnippet
+
+# Not use
+snippet \par "partial" i
+\partial
+endsnippet
+
+#snippet \Lap "Laplacian" i
+#\triangle
+#endsnippet
+
+#snippet \dA "d'Alembertian" i
+#\square
+#endsnippet
+
+snippet \url "Url" w
+\url{$1}
+endsnippet
+
+snippet \label "Label" i
+\label{$1}
+endsnippet
+
+snippet \ref "Reference" w
+\ref{$1}
+endsnippet
+
+snippet \em "Emphasis" w
+\emph{$1}
+endsnippet
+
+snippet \tbf "Text boldface" w
+\textbf{$1}
+endsnippet
+
+snippet \mbf "Math boldface" w
+\mathbf{$1}
+endsnippet
+
+snippet \tit "Text italics" w
+\textit{$1}
+endsnippet
+
+snippet \ol "Overline" w
+\overline{$1}
+endsnippet
+
+snippet \ul "Underline" w
+\underline{$1}
+endsnippet
+
+snippet \it "Item" b
+\item
+endsnippet
+
+snippet "mat(rix)?" "Smart Matrix" br
+\begin{${1:p/b/v/V/B/small}matrix}
+	$2
+\end{$1matrix}
+
+endsnippet
+
+snippet tabular "Tabular / Array" b
+\begin{${1:t}${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}{${2:c}}
+$0${2/(?<=.)(c|l|r)|./(?1: & )/g}
+\end{$1${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}
+
+endsnippet
+
+snippet table "Table" b
+\begin{table}[${1:htpb}]
+	\centering
+	\caption{${2:caption}}
+	\label{tab:${3:label}}
+	\begin{${4:t}${4/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}{${5:c}}
+	$0${5/(?<=.)(c|l|r)|./(?1: & )/g}
+	\end{$4${4/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}
+\end{table}
+
+endsnippet
+
+snippet fig "Figure" b
+\begin{figure}[${2:htpb}]
+	\centering
+	\includegraphics[width=${3:0.8}\linewidth]{${4:name.ext}}
+	\caption{${4/(\w+)\.\w+/\u$1/}$0}
+	\label{fig:${4/(\w+)\.\w+/$1/}}
+\end{figure}
+
+endsnippet
+#-----------------------------------------------------------------------
+snippet eq "Equation" w
+\begin{equation}
+	$1
+\end{equation}
+
+endsnippet
+
+snippet eq* "Equation without numbering" w
+\begin{equation*}
+	$1
+\end{equation*}
+
+endsnippet
+
+snippet align "Align" w
+\begin{align}
+	$1
+\end{align}
+
+endsnippet
+
+snippet align* "Align without numbering" w
+\begin{align*}
+	$1
+\end{align*}
+
+endsnippet
+
+snippet cases "Cases" w
+\begin{cases}
+	$1,	\\\\
+	$2
+\end{cases}
+endsnippet
+
+snippet enum "Enumerate" b
+\begin{enumerate}[(i)]
+	\item $1,
+	\item $2
+\end{enumerate}
+
+endsnippet
+
+snippet item "Itemize" b
+\begin{itemize}
+	\item $1,
+	\item $2
+\end{itemize}
+
+endsnippet
+
+snippet desc "Description" b
+\begin{description}
+	\item[$1]\hfill \\$2,
+	\item[$3]\hfill \\$4
+\end{description}
+
+endsnippet
+#-----------------------------------------------------------------------
+snippet begin "begin{} / end{}" b
+\begin{${1:name}}
+	${2:${VISUAL}}
+\end{$1}
+
+endsnippet
+
+snippet thm "Theorem" b
+\begin{theorem}
+	$1
+\end{theorem}
+
+endsnippet
+
+snippet proof "Proof" b
+\begin{proof}
+	$1
+\end{proof}
+
+endsnippet
+
+snippet cor "Corollary" b
+\begin{corollary}
+	$1
+\end{corollary}
+
+endsnippet
+
+snippet lmm "Lemma" b
+\begin{lemma}
+	$1
+\end{lemma}
+
+endsnippet
+
+snippet prop "Proposition" b
+\begin{proposition}
+	$1
+\end{proposition}
+endsnippet
+
+
+snippet def "Definition" b
+\begin{definition}
+	$1
+\end{definition}
+
+endsnippet
+
+snippet remark "Remark" b
+\begin{remark}
+	$1
+\end{remark}
+
+endsnippet
+
+snippet example "Example" b
+\begin{example}
+	$1
+\end{example}
+
+endsnippet
+
+snippet exercise "Exercise" b
+\begin{exercise}
+	$1
+\end{exercise}
+
+endsnippet
+
+snippet solution "Solution" b
+\begin{solution}
+	$1
+\end{solution}
+
+endsnippet
+
+snippet question "Question" b
+\begin{question}
+	$1
+\end{question}
+
+endsnippet
+
+snippet problem "Problem" b
+\begin{problem}
+	$1
+\end{problem}
+
+endsnippet
+
+snippet update "Update" b
+\begin{update}
+	$1
+\end{update}
+
+endsnippet
+
+snippet abstract "Abstract" b
+\begin{abstract}
+	$1
+\end{abstract}
+
+endsnippet
+#-----------------------------------------------------------------------
+# No use
+snippet chap "Chapter" b
+\chapter{${1:name}}
+$2
+endsnippet
+
+snippet sec "Section" b
+\section{${1:name}}
+$2
+endsnippet
+
+snippet sec* "Section*" b
+\section*{${1:name}}
+$2
+endsnippet
+
+
+snippet ssec "Subsection" b
+\subsection{${1:name}}
+$2
+endsnippet
+
+snippet ssec* "Subsection" b
+\subsection*{${1:name}}
+$2
+endsnippet
+
+snippet sssec "Subsubsection" b
+\subsubsection{${1:name}}
+$2
+endsnippet
+
+snippet sssec* "Subsubsection" b
+\subsubsection*{${1:name}}
+$2
+endsnippet
+
+# No use
+#snippet par "Paragraph" b
+#\paragraph{${1:name}}
+#$2
+#endsnippet
+
+#snippet spar "Subparagraph" b
+#\subparagraph{${1:name}}
+#$2
+#endsnippet
+#-----------------------------------------------------------------------
+snippet \now "Today"
+`date +"%Y-%m-%d %T"`
+endsnippet
+#-----------------------------------------------------------------------
+
+# vim:ft=snippets:
