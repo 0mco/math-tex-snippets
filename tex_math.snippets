@@ -5,6 +5,10 @@ priority 0
 ###############################
 
 # Keys are set in coofdinate to Greek's keyboard layout
+#snippet "\\G " "Gamma" Air
+#\Gamma 
+#endsnippet
+
 snippet \G "Gamma" i
 \Gamma
 endsnippet
@@ -222,6 +226,14 @@ snippet \{ "left\{ right\}" Ai
 \\{${1:${VISUAL}}\\}
 endsnippet
 
+snippet \l[ "left\[ right\]" Ai
+\\[ ${1:${VISUAL}} \\]
+endsnippet
+
+snippet \l| "left\| right\|" Ai
+\left| ${1:${VISUAL}} \right|
+endsnippet
+
 snippet \l{ "left\{ right\}" Ai
 \left\\{ ${1:${VISUAL}} \right\\}
 endsnippet
@@ -239,32 +251,32 @@ endsnippet
 #\left[ ${1:${VISUAL}} \right]
 #endsnippet
 
-snippet \norm "Norm" w
+snippet norm "Norm" w
 \norm{$1}
 endsnippet
 
-snippet \lim "Limit" w
+snippet lim "Limit" w
 \lim_{$1}
 endsnippet
 
-snippet \int "Integral" w
+snippet int "Integral" w
 \int_{${1:0}}^{${2:\infty}}
 endsnippet
 
-snippet \sum "Sum" w
-\sum_{${1:1}}^{${2:\infty}}
+snippet sum "Sum" w
+\sum_{${1:n=0}}^{${2:\infty}}
 endsnippet
 
-snippet \prod "Product" w
+snippet prod "Product" w
 \prod_{${1:1}}^{${2:\infty}}
 endsnippet
 
-snippet \frac "Fraction" w
-\frac{${1:${VISUAL:nom}}}{${2:denom}}
+snippet frac "Fraction" w
+\frac{${1:${VISUAL:1}}}{${2:n}}
 endsnippet
 
 # Not use
-snippet \par "partial" i
+snippet par "partial" i
 \partial
 endsnippet
 
@@ -276,43 +288,47 @@ endsnippet
 #\square
 #endsnippet
 
-snippet \url "Url" w
+snippet url "Url" w
 \url{$1}
 endsnippet
 
-snippet \label "Label" i
+snippet label "Label" i
 \label{$1}
 endsnippet
 
-snippet \ref "Reference" w
+snippet ref "Reference" w
 \ref{$1}
 endsnippet
 
-snippet \em "Emphasis" w
+snippet em "Emphasis" w
 \emph{$1}
 endsnippet
 
-snippet \tbf "Text boldface" w
+snippet tbf "Text boldface" w
 \textbf{$1}
 endsnippet
 
-snippet \mbf "Math boldface" w
+snippet mbf "Math boldface" w
 \mathbf{$1}
 endsnippet
 
-snippet \tit "Text italics" w
+snippet tit "Text italics" w
 \textit{$1}
 endsnippet
 
-snippet \ol "Overline" w
+snippet txt "Text" w
+\text{$1}
+endsnippet
+
+snippet ol "Overline" w
 \overline{$1}
 endsnippet
 
-snippet \ul "Underline" w
+snippet ul "Underline" w
 \underline{$1}
 endsnippet
 
-snippet \it "Item" b
+snippet it "Item" b
 \item
 endsnippet
 
@@ -382,14 +398,14 @@ endsnippet
 
 snippet cases "Cases" w
 \begin{cases}
-	$1,	\\\\
+	$1;	\\\\
 	$2
 \end{cases}
 endsnippet
 
 snippet enum "Enumerate" b
 \begin{enumerate}[(i)]
-	\item $1,
+	\item $1;
 	\item $2
 \end{enumerate}
 
@@ -397,7 +413,7 @@ endsnippet
 
 snippet item "Itemize" b
 \begin{itemize}
-	\item $1,
+	\item $1;
 	\item $2
 \end{itemize}
 
@@ -405,7 +421,7 @@ endsnippet
 
 snippet desc "Description" b
 \begin{description}
-	\item[$1]\hfill \\$2,
+	\item[$1]\hfill \\$2;
 	\item[$3]\hfill \\$4
 \end{description}
 
